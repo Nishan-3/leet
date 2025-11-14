@@ -43,7 +43,7 @@ def inorder(node):
     print(node.data)
     inorder(node.right)
 
-preorder(firstnode)
+inorder(firstnode)
 print('Post order')
 def postorder(node):
     if node == None :
